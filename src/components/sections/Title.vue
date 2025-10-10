@@ -203,16 +203,6 @@ const buttons = [
   text-align: center;
 }
 
-/* 姓名和地址按钮 */
-.title-button {
-  margin: 10px 3px;
-}
-
-/* 姓名和地址按钮光标悬浮 */
-.title-button:hover {
-  margin: 10px 8px;
-}
-
 /* 引导材料按钮 */
 .guidance-button {
   margin: 8px 5px;
@@ -221,7 +211,7 @@ const buttons = [
 
 /* 姓名属性 */
 .author {
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 3px;
 }
 
