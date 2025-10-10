@@ -45,7 +45,7 @@ const authors = [
   },
 	{
     name: "Ronggang Wang",
-    address_flag: "4"
+    address_flag: "5,6"
   },
 	{
     name: "Yongsheng Liang",
