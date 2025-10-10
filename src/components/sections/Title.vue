@@ -162,7 +162,6 @@ const buttons = [
 	<el-row justify="center">
 	  <el-button
 	    class="title-button"
-	    :color="btn_color"
 		type="primary"
 	    text
 	    v-for="address in addresses"
@@ -237,6 +236,7 @@ const buttons = [
 /* 地址属性 */
 .address {
   font-size: 18px;
+  color: #444444;
 }
 
 /* 地址上标属性 */
