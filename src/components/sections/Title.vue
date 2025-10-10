@@ -4,16 +4,16 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = ''
 
 // 标题
-const title = 'Academic Project Page Template'
+const title = 'Motion Matters: Compact Gaussian Streaming for Free-Viewpoint Video Reconstruction'
 
 // 标题颜色
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = ' (Vue based)'
+const title_supp = ''
 
 // 标题补充颜色
 const title_supp_color = '#42B883'
@@ -24,10 +24,10 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Your Name",
-    icon: "./icon/junyaohu.jpg",
-    homepage: "https://junyaohu.github.io/",
-    address_flag: "1,#"
+    name: "Jiacong Chen",
+    icon: "",
+    homepage: "",
+    address_flag: "1"
   },
   {
     name: "Anya Forger",
