@@ -158,7 +158,6 @@ const buttons = [
 	  </el-button>
 	</el-row>
 
-	const btn_color = '#444444'
 	<!-- 地址名单 -->
 	<el-row justify="center">
 	  <el-button
