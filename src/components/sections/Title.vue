@@ -25,44 +25,30 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Jiacong Chen",
-    icon: "",
-    homepage: "",
     address_flag: "1,2"
   },
   {
     name: "Qingyu Mao",
-    icon: "",
-    homepage: "",
     address_flag: "3"
   },
   {
     name: "Youneng Bao",
-    icon: "",
-    homepage: "",
     address_flag: "4"
   },
 	{
     name: "Xiandong Meng",
-    icon: "",
-    homepage: "",
     address_flag: "5"
   },
 	{
     name: "Fanyang Meng",
-    icon: "",
-    homepage: "",
     address_flag: "5"
   },
 	{
     name: "Ronggang Wang",
-    icon: "",
-    homepage: "",
     address_flag: "4"
   },
 	{
     name: "Yongsheng Liang",
-    icon: "",
-    homepage: "",
     address_flag: "1,2,*"
   },
 ]
@@ -72,38 +58,26 @@ const addresses = [
   {
     address_flag: "1",
     name: "College of Applied Technology, Shenzhen University",
-    icon: "",
-    homepage: ""
   },
   {
     address_flag: "2",
     name: "College of Big Data and Internet, Shenzhen Technology University",
-    icon: "",
-    homepage: ""
   },
 	{
     address_flag: "3",
     name: "College of Electronics and Information Engineering, Shenzhen University",
-    icon: "",
-    homepage: ""
   },
 	{
     address_flag: "4",
     name: "Department of Computer Science, City University of Hong Kong",
-    icon: "",
-    homepage: ""
   },
 	{
     address_flag: "5",
     name: "Pengcheng Laboratory",
-    icon: "",
-    homepage: ""
   },
 	{
     address_flag: "6",
     name: "School of Electronic and Computer Engineering, Peking University",
-    icon: "",
-    homepage: ""
   },
 ]
 
