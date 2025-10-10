@@ -16,5 +16,8 @@ import abstract from '../mds/abstract.mdx';
 </template>
 
 <style scoped>
+.abstract-wrapper {
+  text-align: justify;
+}
 
 </style>
