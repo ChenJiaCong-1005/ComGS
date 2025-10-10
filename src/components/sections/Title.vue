@@ -142,24 +142,38 @@ const buttons = [
     </el-row>
 
     <!-- 作者名单 -->
-    <el-row justify="center">
-        <el-button class="title-button" type="primary" text>
-          <el-avatar v-if="author.icon" :size="40" :src="author.icon" />
-          <span class="author">
-            {{ author.name }}<sup v-if="author.address_flag" class="name_sup">{{ author.address_flag }}</sup>
-          </span>
-        </el-button>
-    </el-row>
-
-    <!-- 地址名单 -->
-    <el-row justify="center">
-        <el-button class="title-button" type="primary" text>
-          <el-avatar v-if="address.icon" :size="40" :src="address.icon" />
-          <span class="address">
-            <sup v-if="address.address_flag" class="address_sup">{{ address.address_flag }}</sup>{{ address.name }}
-          </span>
-        </el-button>
-    </el-row>
+	<el-row justify="center">
+	  <el-button
+	    class="title-button"
+	    type="primary"
+	    text
+	    v-for="author in authors"
+	    :key="author.name"
+	  >
+	    <el-avatar v-if="author.icon" :size="40" :src="author.icon" />
+	    <span class="author">
+	      {{ author.name }}
+	      <sup v-if="author.address_flag" class="name_sup">{{ author.address_flag }}</sup>
+	    </span>
+	  </el-button>
+	</el-row>
+	
+	<!-- 地址名单 -->
+	<el-row justify="center">
+	  <el-button
+	    class="title-button"
+	    type="primary"
+	    text
+	    v-for="address in addresses"
+	    :key="address.name"
+	  >
+	    <el-avatar v-if="address.icon" :size="40" :src="address.icon" />
+	    <span class="address">
+	      <sup v-if="address.address_flag" class="address_sup">{{ address.address_flag }}</sup>
+	      {{ address.name }}
+	    </span>
+	  </el-button>
+	</el-row>
 
     <!-- 共一和通讯提示内容 -->
     <el-row justify="center" class="con-cor">
