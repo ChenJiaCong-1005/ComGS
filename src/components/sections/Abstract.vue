@@ -7,11 +7,17 @@ import abstract from '../mds/abstract.mdx';
     <el-divider />
 
     <el-row justify="center">
-        <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
-            <abstract />
-        </el-col>
+      <el-col
+        class="abstract-wrapper"
+        :xs="24"
+        :sm="20"
+        :md="16"
+        :lg="12"
+        :xl="12"
+      >
+        <abstract />
+      </el-col>
     </el-row>
-
   </div>
 </template>
 
