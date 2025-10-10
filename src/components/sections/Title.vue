@@ -162,7 +162,7 @@ const buttons = [
 	<el-row justify="center">
 	  <el-button
 	    class="title-button"
-	    type="primary"
+	    :color="btn_color"
 	    text
 	    v-for="address in addresses"
 	    :key="address.name"
