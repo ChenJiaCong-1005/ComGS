@@ -149,7 +149,6 @@ const buttons = [
             {{ author.name }}<sup v-if="author.address_flag" class="name_sup">{{ author.address_flag }}</sup>
           </span>
         </el-button>
-      </a>
     </el-row>
 
     <!-- 地址名单 -->
@@ -160,7 +159,6 @@ const buttons = [
             <sup v-if="address.address_flag" class="address_sup">{{ address.address_flag }}</sup>{{ address.name }}
           </span>
         </el-button>
-      </a>
     </el-row>
 
     <!-- 共一和通讯提示内容 -->
