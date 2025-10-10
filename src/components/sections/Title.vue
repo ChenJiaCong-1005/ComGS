@@ -27,19 +27,43 @@ const authors = [
     name: "Jiacong Chen",
     icon: "",
     homepage: "",
-    address_flag: "1"
+    address_flag: "1,2"
   },
   {
-    name: "Anya Forger",
-    icon: "./icon/anya.jpg",
-    homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "2,#"
+    name: "Qingyu Mao",
+    icon: "",
+    homepage: "",
+    address_flag: "3"
   },
   {
-    name: "BugCat Capoo",
-    icon: "./icon/capoo.webp",
-    homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    name: "Youneng Bao",
+    icon: "",
+    homepage: "",
+    address_flag: "4"
+  },
+	{
+    name: "Xiandong Meng",
+    icon: "",
+    homepage: "",
+    address_flag: "5"
+  },
+	{
+    name: "Fanyang Meng",
+    icon: "",
+    homepage: "",
+    address_flag: "5"
+  },
+	{
+    name: "Ronggang Wang",
+    icon: "",
+    homepage: "",
+    address_flag: "4"
+  },
+	{
+    name: "Yongsheng Liang",
+    icon: "",
+    homepage: "",
+    address_flag: "1,2,*"
   },
 ]
 
