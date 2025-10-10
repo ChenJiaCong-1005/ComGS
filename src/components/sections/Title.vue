@@ -157,12 +157,13 @@ const buttons = [
 	    </span>
 	  </el-button>
 	</el-row>
-	
+
+	const btn_color = '#444444'
 	<!-- 地址名单 -->
 	<el-row justify="center">
 	  <el-button
 	    class="title-button"
-	    type="primary"
+	    ：color="btn_color"
 	    text
 	    v-for="address in addresses"
 	    :key="address.name"
