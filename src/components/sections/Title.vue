@@ -163,6 +163,7 @@ const buttons = [
 	  <el-button
 	    class="title-button"
 	    :color="btn_color"
+		type="primary"
 	    text
 	    v-for="address in addresses"
 	    :key="address.name"
