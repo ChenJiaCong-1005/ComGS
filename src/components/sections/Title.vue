@@ -71,31 +71,52 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
-    icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    name: "College of Applied Technology, Shenzhen University",
+    icon: "",
+    homepage: ""
   },
   {
     address_flag: "2",
-    name: "IKUN University",
-    icon: "./icon/ikun.avif",
-    homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+    name: "College of Big Data and Internet, Shenzhen Technology University",
+    icon: "",
+    homepage: ""
+  },
+	{
+    address_flag: "3",
+    name: "College of Electronics and Information Engineering, Shenzhen University",
+    icon: "",
+    homepage: ""
+  },
+	{
+    address_flag: "4",
+    name: "Department of Computer Science, City University of Hong Kong",
+    icon: "",
+    homepage: ""
+  },
+	{
+    address_flag: "5",
+    name: "Pengcheng Laboratory",
+    icon: "",
+    homepage: ""
+  },
+	{
+    address_flag: "6",
+    name: "School of Electronic and Computer Engineering, Peking University",
+    icon: "",
+    homepage: ""
   },
 ]
 
 // 共一和通讯提示
 const con_and_corresponding_author = 
-  "#: Equal Contribution. *: Corresponding Author."
+  "*: Corresponding Author."
 
 // 最新消息
-const news = "🔥 [2024-12-15] This template project is still under development."
+const news = "🔥 [2025-09-19] This paper is accepted by NeurIPS 2025."
 
 // 强调内容
 const emphases = [
-  "🎉 [ABCD 2024] Poster",
-  "🥰 欢迎关注“减论”微信公众号/B站/知乎/小红书",
-  "传递人工智能算法科普教育的减约理解",
-  "提升信息效率及认知维度"
+  "🎉 [NeurIPS 2025] Poster",
 ]
 
 // 提供引导资料链接
