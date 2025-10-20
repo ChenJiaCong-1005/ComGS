@@ -14,3 +14,23 @@ import page from '../mds/md.mdx';
 
   </div>
 </template>
+
+<style scoped>
+/* 禁用 markdown 中插入图片的悬浮效果 */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
+  transition: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+  border: none !important;
+}
+
+img:hover {
+  box-shadow: none !important;
+  transform: none !important;
+  border: none !important;
+  opacity: 1 !important;
+}
+</style>
