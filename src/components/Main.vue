@@ -24,8 +24,6 @@ export default {
     Markdown,
     BibTeX,
     Carousel,
-    Echart,
-    Collapse,
     Table,
   }
 }
@@ -37,7 +35,5 @@ export default {
   <Abstract/>
   <Markdown/>
   <Table/>
-  <Collapse/>
-  <Echart/>
   <BibTeX/>
 </template>
