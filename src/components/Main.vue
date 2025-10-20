@@ -22,7 +22,6 @@ export default {
     Title,
     Abstract,
     Video,
-    Markdown,
     BibTeX,
     Carousel,
     Table,
@@ -35,7 +34,6 @@ export default {
   <Carousel/>
   <Abstract/>
   <Video/>
-  <Markdown/>
   <Table/>
   <BibTeX/>
 </template>
