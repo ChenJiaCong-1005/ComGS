@@ -3,11 +3,11 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@article{chen2025motion,",
+        "    title={Motion Matters: Compact Gaussian Streaming for Free-Viewpoint Video Reconstruction},",
+        "    author={Chen, Jiacong and Mao, Qingyu and Bao, Youneng and Meng, Xiandong and Meng, Fanyang and Wang, Ronggang and Liang, Yongsheng},",
+        "    journal={arXiv preprint arXiv:2505.16533},",
+        "    year={2025}",
         "}",
       ],
     }
