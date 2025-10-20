@@ -19,7 +19,7 @@ export default {
         Autoplay,
       ],
       // 选择要轮播的照片
-      image_paths: [
+      video_paths: [
         "./carousel/coffee_martini.mp4",
         "./carousel/cut_roasted_beef.mp4",
         "./carousel/discussion.mp4",
