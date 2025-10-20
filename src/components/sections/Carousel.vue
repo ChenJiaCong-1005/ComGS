@@ -20,12 +20,12 @@ export default {
       ],
       // 选择要轮播的照片
       image_paths: [
-        "./carousel/1.mp4",
-        "./carousel/2.mp4",
-        "./carousel/3.mp4",
-        "./carousel/4.mp4",
-        "./carousel/5.mp4",
-        "./carousel/6.mp4",
+        "./carousel/coffee_martini.mp4",
+        "./carousel/cut_roasted_beef.mp4",
+        "./carousel/discussion.mp4",
+        "./carousel/flame_steak.mp4",
+        "./carousel/sear_steak.mp4",
+        "./carousel/trimming_test.mp4",
       ],
     }
   }
