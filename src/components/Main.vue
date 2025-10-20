@@ -21,6 +21,7 @@ export default {
   components: {
     Title,
     Abstract,
+    Video,
     Markdown,
     BibTeX,
     Carousel,
@@ -33,6 +34,7 @@ export default {
   <Title/>
   <Carousel/>
   <Abstract/>
+  <Video/>
   <Markdown/>
   <Table/>
   <BibTeX/>
