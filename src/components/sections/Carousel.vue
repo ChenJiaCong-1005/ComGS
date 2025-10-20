@@ -62,7 +62,8 @@ export default {
           pauseOnMouseEnter:true,
         }"
         >
-        <swiper-slide v-for="path in video_paths" :key="path">
+        <swiper-slide v-for="path in video_paths" :key="path" class="video-slide">
+  <div class="video-wrapper">
     <video
       :src="path"
       controls
@@ -70,21 +71,44 @@ export default {
       loop
       muted
       playsinline
-      style="width: 100%; height: auto; object-fit: cover"
+      class="video-player"
     ></video>
-          <el-image :src="path"/>
-        </swiper-slide>
+  </div>
+</swiper-slide>
       </swiper>
     </el-col>
   </el-row>
 </template>
   
-<style>
-
+<style scoped>
 /* 设置Swiper风格 */
 .swiper {
   --swiper-theme-color: white;
 }
 
+/* 每张轮播 slide 的容器，设置统一高度并让内容居中 */
+.video-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* 你可以根据需求调整高度 */
+  background: #000; /* 黑色背景，避免空白边缘 */
+}
+
+/* 视频的包裹容器，限制最大尺寸 */
+.video-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 视频样式，让其保持比例居中显示 */
+.video-player {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
 </style>
   
