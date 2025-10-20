@@ -21,9 +21,9 @@ export default {
       // 选择要轮播的照片
       video_paths: [
         "./carousel/coffee_martini.mp4",
-        "./carousel/cut_roasted_beef.mp4",
-        "./carousel/discussion.mp4",
         "./carousel/flame_steak.mp4",
+        "./carousel/discussion.mp4",
+        "./carousel/flame_salmon_1.mp4",
         "./carousel/sear_steak.mp4",
         "./carousel/trimming_test.mp4",
       ],
